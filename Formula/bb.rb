@@ -1,27 +1,27 @@
 class Bb < Formula
   desc "gh-style command-line client for Bitbucket Cloud"
   homepage "https://github.com/ahmetbedir/bb"
-  version "1.0.2"
+  version "1.0.3"
 
   on_macos do
     on_arm do
-      url "https://github.com/ahmetbedir/bb/releases/download/v1.0.2/bb-macos-arm64"
-      sha256 "24446ae74d4f6e227a0b2fa0ee188ef6d1e7e9c205c1e538183dca3071cffa2a"
+      url "https://github.com/ahmetbedir/bb/releases/download/v1.0.3/bb-macos-arm64"
+      sha256 "2f62b8964eeda3c4ce8d803e81bfbee9cf292cd6c50ea2044cc3c329bd7df199"
     end
     on_intel do
-      url "https://github.com/ahmetbedir/bb/releases/download/v1.0.2/bb-macos-x86_64"
-      sha256 "e3e0dfc285921408b0cb58d58d29883eb4a468b0ab528543ca5dccaf8f41dc76"
+      url "https://github.com/ahmetbedir/bb/releases/download/v1.0.3/bb-macos-x86_64"
+      sha256 "c16cf0f75dd73459f66aa39031f7e86f880ee123e0529c7b01c01910272c58cb"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ahmetbedir/bb/releases/download/v1.0.2/bb-linux-arm64"
-      sha256 "5cd7ea7cb7c419caf8699e4d6c576924156c0b1a43166b5d6fc0788adf1e8947"
+      url "https://github.com/ahmetbedir/bb/releases/download/v1.0.3/bb-linux-arm64"
+      sha256 "e7a50b1b2e76a8945f4942baa10d7e62c72a9880be10e9efc3540975c85c9a4c"
     end
     on_intel do
-      url "https://github.com/ahmetbedir/bb/releases/download/v1.0.2/bb-linux-x86_64"
-      sha256 "280d69b021c9cb025ddb7eaab3e3d8c7eaf8f654e437777b3ec0e6853ca5be24"
+      url "https://github.com/ahmetbedir/bb/releases/download/v1.0.3/bb-linux-x86_64"
+      sha256 "94ce8d4ecb243bceac23e88798be080c24c705e009fb177847b436f88f0f897f"
     end
   end
 
