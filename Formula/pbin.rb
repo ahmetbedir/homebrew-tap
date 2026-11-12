@@ -1,27 +1,27 @@
 class Pbin < Formula
   desc "Create encrypted PrivateBin pastes from the terminal"
   homepage "https://github.com/ahmetbedir/pbin"
-  version "1.0.2"
+  version "1.0.3"
 
   on_macos do
     on_arm do
-      url "https://github.com/ahmetbedir/pbin/releases/download/v1.0.2/pbin-macos-arm64"
-      sha256 "e7dbdd747c311bb7e5289571336c3940fee918f03d506f25779d4a2769a864d3"
+      url "https://github.com/ahmetbedir/pbin/releases/download/v1.0.3/pbin-macos-arm64"
+      sha256 "dd04a2ecde076f8a3acbf5d33cd0d897b76c6060dad0eaf45e08d4ebbfd78e14"
     end
     on_intel do
-      url "https://github.com/ahmetbedir/pbin/releases/download/v1.0.2/pbin-macos-x86_64"
-      sha256 "ea63cda20d898fee8eec227c7b819e6098b005b3be6919ccaa27c2149aa8da6c"
+      url "https://github.com/ahmetbedir/pbin/releases/download/v1.0.3/pbin-macos-x86_64"
+      sha256 "f89dc48e2266cdce7f1b7ef0ff50d3e8518fa12ba6944b052ab23afdbc7a0a6d"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ahmetbedir/pbin/releases/download/v1.0.2/pbin-linux-arm64"
-      sha256 "856ed385b0602437b2265d26264a7d10bc8ad05e0c0f7fa0accccbda2edf26b9"
+      url "https://github.com/ahmetbedir/pbin/releases/download/v1.0.3/pbin-linux-arm64"
+      sha256 "4befc8ad05b2a3cd42c8c2380867eac0765594726911f1f5546abc31541e4854"
     end
     on_intel do
-      url "https://github.com/ahmetbedir/pbin/releases/download/v1.0.2/pbin-linux-x86_64"
-      sha256 "48b53841a56757d9381f6dbaaff554488e1fcdb08d0a284d57841f8ebe3e0b36"
+      url "https://github.com/ahmetbedir/pbin/releases/download/v1.0.3/pbin-linux-x86_64"
+      sha256 "71bb937962aa996ce67777267bf0e52e00431712f104c336ab3e2b8ddfb4a9f4"
     end
   end
 
